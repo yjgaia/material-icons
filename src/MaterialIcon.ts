@@ -1,4 +1,5 @@
-import { DomNode, DomSelector } from "@common-module/app";
+import { DomNode } from "@common-module/app";
+import { DomSelector } from "@common-module/universal-page";
 
 export default class MaterialIcon extends DomNode {
   constructor(iconName: string) {
